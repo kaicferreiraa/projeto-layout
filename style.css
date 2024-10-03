@@ -62,3 +62,86 @@ body{
 .banner h2{
     font-size: 3em;
 }
+
+.banner p{
+    font-size: 1.5em;
+}
+
+.banner .btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #cd0d0d;
+    color: rgb(157, 67, 67);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.produto .btn:hover{
+    background-color: #787878;
+}
+    
+.produtos{
+    padding: 50px 0;
+}
+
+.section-tittle{
+    text-align: center;
+    font-size: 2. 5em;
+    margin-bottom: 50px;
+}
+
+.produtos-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.produto{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.produto img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.produto h3{
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.produto p{
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.produto .preço{
+    font-size: 1.2em;
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer p{
+    margin: 10px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
